@@ -4,16 +4,11 @@
   <img width=600 height=300 src="https://i0.wp.com/www.lacasadeel.net/wp-content/uploads/2022/09/Sin-titulo-30.jpg?resize=696%2C391">
 </p>
 
-A complex maze game. Generating complex mazes using <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm">Prim's algorithm</a> in any size.
+We implemented in Java (8) a maze game, while the GUI was written with XML in JavaFX. This task encompassed many advanced programming principles such as proper class and interface design, server/client, proper use of thread pools, binding and SOLID coding guidelines. It also involved several design patterns such as decorator, observer/observable and singleton to name a few. We also practice use with Maven repositories manager include log4j2 LogManager.
+The complex mazes are based on <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm">Prim's algorithm</a>.
 Try solve the dragon ball maze at different difficulties, enjoy!
 
-This project consists of two parts:
-1. PartA & Part B - implementation of Prim's pseudocode algorithm to create mazes using Object Oriented Programmin.  
-</br><strong>Note:</strong> The code was written according to SOLID principles.
-- In addition, this part contains the client-server libraries: Streaming, files, decorator. 
-- Parallel programing using java threads.
 
-2. PartC - Architectural Design Pattern (MVVM), event oriented programming, GUI using JavaFX technology.
 
 #### PartA & PartB Code hierarchy
 1. Algorithms package > mazeGenerators pacakge:
