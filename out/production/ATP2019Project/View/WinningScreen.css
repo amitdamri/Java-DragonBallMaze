@@ -1,0 +1,33 @@
+
+.root{
+    -fx-background-image: url('/Player/winningScreenGIF.gif');
+    -fx-background-repeat: round;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+
+}
+
+.button{
+    -fx-background-color: transparent;
+}
+
+.button:hover {
+    -fx-border-color: transparent;
+    -fx-background-color: #2792c8;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid;
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 2 2 2 2, 0;
+}
+.button:focused {
+    -fx-border-color: transparent;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid;
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:pressed {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}

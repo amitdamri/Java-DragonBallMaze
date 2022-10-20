@@ -1,0 +1,26 @@
+2019.06.16 16:16:17.693 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 16:16:17.697 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 16:16:17.699 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 16:16:17.699 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 16:16:17.700 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 16:16:17.700 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 16:16:18.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:18.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:19.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:19.710 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:20.702 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:20.711 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:21.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:21.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:22.704 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:22.713 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:23.705 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:23.715 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:24.707 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:24.716 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:25.708 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:25.717 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:26.228 INFO  Server.Server - Stopping server..
+2019.06.16 16:16:26.229 INFO  Server.Server - Stopping server..
+2019.06.16 16:16:26.710 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 16:16:26.719 DEBUG Server.Server - Socket Timeout - No clients pending!

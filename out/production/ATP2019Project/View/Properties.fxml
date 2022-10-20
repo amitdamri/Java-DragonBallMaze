@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="679.0" prefWidth="688.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <tabs>
+        <Tab text="Maze Settings">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="553.0" prefWidth="633.0" style="-fx-background-image: url('Player/DBBall.png'); -fx-background-position: center center; -fx-background-color: orange;">
+                    <children>
+                        <Label layoutX="30.0" layoutY="14.0" prefHeight="35.0" prefWidth="238.0" text="How do you want to create your maze?">
+                            <font>
+                                <Font name="Arial" size="12.0" />
+                            </font>
+                        </Label>
+                        <ChoiceBox fx:id="choiceBoxDifficultLevel" layoutX="30.0" layoutY="60.0" prefWidth="150.0" value="Difficult Maze" AnchorPane.leftAnchor="30.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Empty Maze" />
+                                    <String fx:value="Simple Maze" />
+                                    <String fx:value="Difficult Maze" />
+                                </FXCollections>
+                            </items>
+                        </ChoiceBox>
+                        <Button layoutX="526.0" layoutY="564.0" mnemonicParsing="false" onAction="#closeWindow" text="Cancel" />
+                        <Button defaultButton="true" layoutX="409.0" layoutY="564.0" mnemonicParsing="false" onAction="#choiceBoxChoose" text="Apply" />
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Solution Settings">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="552.0" prefWidth="599.0" style="-fx-background-image: url('Player/DBBall.png'); -fx-background-position: center center; -fx-background-color: orange;">
+                    <children>
+                        <Label layoutX="30.0" layoutY="14.0" prefHeight="35.0" prefWidth="238.0" text="Choose your way to solve the maze:">
+                            <font>
+                                <Font name="Arial" size="12.0" />
+                            </font>
+                        </Label>
+                        <ChoiceBox fx:id="choiceBoxSolutionWay" layoutX="30.0" layoutY="57.0" prefWidth="150.0" value="Best First Search">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Best First Search" />
+                                    <String fx:value="Breadth First Search" />
+                                    <String fx:value="Depth First Search" />
+                                </FXCollections>
+                            </items>
+                        </ChoiceBox>
+                        <Button layoutX="409.0" layoutY="564.0" mnemonicParsing="false" onAction="#choiceBoxChoose" text="Apply" />
+                        <Button layoutX="526.0" layoutY="564.0" mnemonicParsing="false" onAction="#closeWindow" text="Cancel" />
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

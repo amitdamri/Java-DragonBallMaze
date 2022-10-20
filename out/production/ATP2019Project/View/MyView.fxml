@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import View.MazeDisplayer?>
+<?import View.SolutionDisplayer?>
+<?import View.CharacterDisplayer?>
+<BorderPane fx:id="borderPane" minHeight="700" minWidth="200" onKeyPressed="#KeyPressed" onKeyReleased="#handleKeyReleased" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <center>
+        <Pane fx:id="MazePane" onMouseClicked="#dragCharacter" onScroll="#zoom" BorderPane.alignment="CENTER">
+          <children>
+                <MazeDisplayer fx:id="mazeDisplayer" height="600" imageFileNameWall="resources/Player/wall.jpg" imageFileNamePath="resources/Player/path.jpg" imageFileNameGoal="resources/Player/goal.jpg" onMouseClicked="#mouseClicked" width="600.0" />
+                <SolutionDisplayer fx:id="solutionDisplayer" height="600.0" imageFileNameSolution="resources/Player/SolutionWay.png" onMouseClicked="#mouseClicked" width="600.0" />
+                <CharacterDisplayer fx:id="characterDisplayer" height="600.0" imageFileNameCharacter="resources/Player/goku4front.png" imageFileNameCharacterBack="resources/Player/goku4back.png" imageFileNameCharacterSide1="resources/Player/goku4side1.png" imageFileNameCharacterSide2="resources/Player/goku4side2.png" onMouseClicked="#mouseClicked" width="600.0" />
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </Pane>
+    </center>
+    <left>
+        <VBox prefHeight="663.0" prefWidth="178.0" spacing="5.0" style="-fx-background-image: url('/Player/check1.jpg');-fx-background-position: -115 -20 " BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="431.0" prefWidth="168.0">
+                    <children>
+                        <Button layoutX="5.0" layoutY="152.0" mnemonicParsing="false" onAction="#loadMaze" prefHeight="31.0" prefWidth="162.0" text="Load Maze" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Arial" size="14.0" />
+                            </font>
+                     <effect>
+                        <DropShadow color="#f7ff26" />
+                     </effect>
+                        </Button>
+                        <Button fx:id="btn_saveMaze" layoutX="5.0" layoutY="106.0" mnemonicParsing="false" onAction="#saveMaze" prefHeight="31.0" prefWidth="162.0" text="Save Maze" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Arial" size="14.0" />
+                            </font>
+                     <effect>
+                        <DropShadow color="#f7ff26" />
+                     </effect>
+                        </Button>
+                        <Button fx:id="btn_solveMaze" layoutX="5.0" layoutY="60.0" mnemonicParsing="false" onAction="#solveMaze" prefHeight="31.0" prefWidth="162.0" text="Solve Maze" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Arial" size="14.0" />
+                            </font>
+                     <effect>
+                        <DropShadow color="#f7ff26" />
+                     </effect>
+                        </Button>
+                        <Button contentDisplay="TOP" defaultButton="true" layoutX="5.0" layoutY="14.0" mnemonicParsing="false" onAction="#MazeSize" prefHeight="31.0" prefWidth="162.0" text="Generate Maze" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Arial" size="14.0" />
+                            </font>
+                     <effect>
+                        <DropShadow color="#f7ff26" />
+                     </effect>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            <AnchorPane prefHeight="212.0" prefWidth="168.0">
+               <children>
+                        <Button cancelButton="true" layoutX="3.0" layoutY="-1.0" onAction="#ReturnToMenu" prefHeight="31.0" prefWidth="162.0" text="Return To Menu" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Arial" size="14.0" />
+                            </font>
+                     <effect>
+                        <DropShadow color="#f7ff26" />
+                     </effect>
+                        </Button>
+                        <Label layoutX="12.0" layoutY="76.0" prefHeight="30.0" prefWidth="115.0" text="Char column:" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="Arial Black" size="14.0" />
+                            </font>
+                     <effect>
+                        <DropShadow height="10.0" radius="22.0" width="80.0" />
+                     </effect>
+                        </Label>
+                        <Label fx:id="lbl_rowsNum" disable="false" layoutX="133.0" layoutY="78.0" prefHeight="26.0" prefWidth="22.0" text="10" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow height="10.0" radius="22.0" width="80.0" />
+                     </effect></Label>
+                        <Label layoutX="16.0" layoutY="118.0" prefHeight="30.0" prefWidth="115.0" text="Char row:" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="Arial Black" size="14.0" />
+                            </font>
+                     <effect>
+                        <DropShadow height="10.0" radius="22.0" width="80.0" />
+                     </effect>
+                        </Label>
+                        <Label fx:id="lbl_columnsNum" disable="false" layoutX="121.0" layoutY="118.0" prefHeight="26.0" prefWidth="22.0" text="10" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                     <effect>
+                        <DropShadow height="10.0" radius="22.0" width="80.0" />
+                     </effect></Label>
+                        <RadioButton contentDisplay="CENTER" layoutX="3.0" layoutY="36.0" mnemonicParsing="false" onAction="#sound" prefHeight="31.0" prefWidth="162.0" text="Stop Music" textAlignment="CENTER">
+                            <font>
+                                <Font name="Arial" size="14.0" />
+                            </font></RadioButton>
+               </children>
+            </AnchorPane>
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </VBox>
+    </left>
+    <top>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <MenuBar>
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem fx:id="newButton" mnemonicParsing="false" onAction="#MazeSize" text="New                 " />
+                                <MenuItem fx:id="btn_file_save" mnemonicParsing="false" onAction="#saveMaze" text="Save                " />
+                                <MenuItem mnemonicParsing="false" onAction="#loadMaze" text="Load                " />
+                                <MenuItem mnemonicParsing="false" onAction="#ReturnToMenu" text="Return To Menu       " />
+                                <MenuItem mnemonicParsing="false" onAction="#closeApp" text="Exit                " />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Options">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#openProperties" text="Properties          " />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#Help" text="Game Help           " />
+                                <MenuItem mnemonicParsing="false" onAction="#About" text="About               " />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </children>
+        </VBox>
+    </top>
+</BorderPane>

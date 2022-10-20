@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ATP2019 - Project - PartB:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bee499a-470b-4eba-8da6-38725e3fa8b5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/312199698_205520141_update1$RunCommunicateWithServers.ic" NAME="RunCommunicateWithServers Coverage Results" MODIFIED="1560284976326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ATP2019 - Project - PartA" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>False</find>
+      <find>00</find>
+      <find>000</find>
+      <find>0</find>
+      <find>0, 0</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1TbzwUxeOGgsrVCYBQr9RBFZ5eW" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561452744826" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ATP2019Project" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="algorithms.mazeGenerators" />
+      <recent name="algorithms.search" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\BenGUrion\סמסטר ד\נושאים מתקדמים בתכנות\פרוייקט\312199698_205520141_update1" />
+      <recent name="D:\Downloads\BenGUrion\סמסטר ד\נושאים מתקדמים בתכנות\פרוייקט\312199698_205520141_update1\out\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.JUnitMazeTest.test10">
+    <configuration name="JUnitClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUnitClientTest" />
+      <module name="ATP2019 - Project - PartB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCommunicateWithServers" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RunCommunicateWithServers" />
+      <module name="ATP2019 - Project - PartB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCompressDecompressMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RunCompressDecompressMaze" />
+      <module name="ATP2019 - Project - PartB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunSearchOnMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RunSearchOnMaze" />
+      <module name="ATP2019 - Project - PartB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitMazeTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ATP2019 - Project - PartB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JUnitMazeTest" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RunCommunicateWithServers" />
+      <item itemvalue="Application.RunCompressDecompressMaze" />
+      <item itemvalue="Application.RunSearchOnMaze" />
+      <item itemvalue="Application.JUnitClientTest" />
+      <item itemvalue="JUnit.JUnitMazeTest.test10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JUnitMazeTest.test10" />
+        <item itemvalue="Application.JUnitClientTest" />
+        <item itemvalue="Application.RunCommunicateWithServers" />
+        <item itemvalue="Application.RunSearchOnMaze" />
+        <item itemvalue="Application.RunCompressDecompressMaze" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bee499a-470b-4eba-8da6-38725e3fa8b5" name="Default Changelist" comment="" />
+      <created>1554647759346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554647759346</updated>
+      <workItem from="1554647760874" duration="2071000" />
+      <workItem from="1554655597025" duration="65000" />
+      <workItem from="1554655696959" duration="270000" />
+      <workItem from="1554655997443" duration="474000" />
+      <workItem from="1554703475740" duration="746000" />
+      <workItem from="1554718972181" duration="500000" />
+      <workItem from="1554725110972" duration="955000" />
+      <workItem from="1554727752314" duration="13899000" />
+      <workItem from="1556183329761" duration="2133000" />
+      <workItem from="1556203173477" duration="1244000" />
+      <workItem from="1556557400557" duration="163000" />
+      <workItem from="1556736804982" duration="918000" />
+      <workItem from="1556820631944" duration="1497000" />
+      <workItem from="1556891593755" duration="34402000" />
+      <workItem from="1556990861898" duration="16277000" />
+      <workItem from="1557039867476" duration="27675000" />
+      <workItem from="1557088149720" duration="549000" />
+      <workItem from="1557212196303" duration="25606000" />
+      <workItem from="1557253783406" duration="1609000" />
+      <workItem from="1557255514055" duration="710000" />
+      <workItem from="1557821703023" duration="26168000" />
+      <workItem from="1557932644132" duration="20551000" />
+      <workItem from="1557958326036" duration="1167000" />
+      <workItem from="1557987709383" duration="23112000" />
+      <workItem from="1559893263158" duration="821000" />
+      <workItem from="1559902754492" duration="105000" />
+      <workItem from="1559922002143" duration="281000" />
+      <workItem from="1560004673868" duration="3732000" />
+      <workItem from="1560063088093" duration="7651000" />
+      <workItem from="1560087951923" duration="1295000" />
+      <workItem from="1560156518167" duration="144000" />
+      <workItem from="1560283426911" duration="576000" />
+      <workItem from="1560284028405" duration="1209000" />
+      <workItem from="1560285316759" duration="186000" />
+      <workItem from="1560285669279" duration="312000" />
+      <workItem from="1560286051881" duration="291000" />
+      <workItem from="1560323760506" duration="1632000" />
+      <workItem from="1560326254129" duration="241000" />
+      <workItem from="1560355643707" duration="112000" />
+      <workItem from="1560358591316" duration="8000" />
+      <workItem from="1560367106734" duration="116000" />
+      <workItem from="1561450056744" duration="998000" />
+      <workItem from="1573743823072" duration="151000" />
+      <workItem from="1576257809973" duration="44000" />
+      <workItem from="1576258009665" duration="195000" />
+      <workItem from="1576270124758" duration="828000" />
+      <workItem from="1576271075328" duration="57000" />
+      <workItem from="1576358059547" duration="147000" />
+      <workItem from="1588537270005" duration="172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Server/Configurations.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/search/Solution.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Server/Configurations.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/out/artifacts/ATP2019___Project___PartB_jar2/ATP2019 - Project - PartB.jar!/IO/MyDecompressorInputStream.class</url>
+          <line>56</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/RunCompressDecompressMaze.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/RunSearchOnMaze.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IO/MyDecompressorInputStream.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Server/Server.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/RunCommunicateWithServers.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="maze2" />
+        <watch expression="maze.maze" />
+        <watch expression="maze2.maze" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="statesToVisit.toArray()[6]" />
+        <watch expression="statesToVisit.toArray()[6]" language="JAVA" />
+        <watch expression="decompressor" />
+        <watch expression="decompressor" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

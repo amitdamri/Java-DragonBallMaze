@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('Player/DragonBallAbout.jpg');" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <children>
+      <TextArea editable="false" layoutX="12.0" layoutY="37.0" prefHeight="327.0" prefWidth="570.0" text="Welcome to the Dragon Ball Maze! &#10;This game made and published in 2019 to make maze solving enjoyable.&#10;We're happy you joined us.&#10;&#10;Here's a quick rundown of what our game works.&#10;&#10;We used 3 different algorithms for maze generating:&#10;1. Prim's Algorithm for maze generating.&#10;2. Rand start and goal position and spread walls, while ensuring there exisitng &#10;a solution.&#10;3. Empty maze - only paths, no walls.&#10;&#10;We used 3 different algorithms for maze solving:&#10;1. Breadth First Search.&#10;2. Best First Search.&#10;3. Depth First Search.&#10;All the three algorithms find the same path, but in different runtime, according&#10;to the algorithm.&#10;&#10;About us&#10;Amit Damri and Dvir Simhon are SISE Students at BGU University Of The Negev.&#10;&#10;&#10;We hope you love what you find here!&#10;&#10;Amit Damri and Dvir Simhon, BGU University Of The Negev, 2019.">
+         <font>
+            <Font size="15.0" />
+         </font></TextArea>
+      <Button defaultButton="true" layoutX="508.0" layoutY="364.0" mnemonicParsing="false" onAction="#closeWindow" text="OK">
+         <font>
+            <Font name="Pirate Keg" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

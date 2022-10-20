@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <children>
+        <TextArea editable="false" layoutX="12.0" layoutY="37.0" prefHeight="327.0" prefWidth="570.0" text="HELP ME!&#10;&#10;Here's a quick rundown of the game's rules and buttons.&#10;&#10;Rules:&#10;In order to solve maze, you must pass only through paths (avoid walls).&#10;If you didn't reach the goal position, go right back and try to find another way.&#10;&#10;&#10;Buttons:&#10;New&#10;Start a new game by entering number of rows and columns.&#10;&#10;Load&#10;Choose when you want to play a given maze!&#10;You're able to save current game played and load it back whenever you choose &#10;again.&#10;&#10;Properties&#10;Choose difficult level:&#10;Empty Maze - The easiest level. Just go right to the end position.&#10;Simple Maze - A bit sophisticated maze. Recommended for the beginnig.&#10;Difficult Maze - A very sophisticated maze. Recommended for experts.&#10;&#10;Choose way of solution:&#10;We offer a few different ways for maze solving:&#10;Breadth First Search - finds the end position in the fastest time.&#10;Best First Search - finds the end position in average time.&#10;Depth First Search - finds the end position in long time.&#10;&#10;Exit&#10;Exit the game.&#10;&#10;For any questions related the game send an email:&#10;dvirsim@post.bgu.ac.il&#10;amitdamr@post.bgu.ac.il">
+            <font>
+                <Font size="15.0" />
+            </font></TextArea>
+        <Button defaultButton="true" layoutX="508.0" layoutY="364.0" mnemonicParsing="false" onAction="#closeWindow" text="OK">
+            <font>
+                <Font name="Pirate Keg" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>

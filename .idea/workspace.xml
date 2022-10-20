@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ATP2019Project:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39f461cc-0f63-4700-be39-59b72bb567fc" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Usu2b0YecOVfHkFGiJEmCl2xOe" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560691707545" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15546772" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\BenGUrion\סמסטר ד\נושאים מתקדמים בתכנות\פרוייקט\ATP2019Project\resources" />
+      <recent name="D:\Downloads\BenGUrion\סמסטר ד\נושאים מתקדמים בתכנות\פרוייקט\ATP2019Project\ATP2019Project\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Downloads\BenGUrion\סמסטר ד\נושאים מתקדמים בתכנות\פרוייקט\ATP2019Project\out\production\ATP2019Project" />
+      <recent name="D:\Downloads\BenGUrion\סמסטר ד\נושאים מתקדמים בתכנות\פרוייקט\ATP2019Project\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="ATP2019Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39f461cc-0f63-4700-be39-59b72bb567fc" name="Default Changelist" comment="" />
+      <created>1559893489049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559893489049</updated>
+      <workItem from="1559893490670" duration="9164000" />
+      <workItem from="1559903254902" duration="6146000" />
+      <workItem from="1559920779802" duration="31402000" />
+      <workItem from="1560033365378" duration="1000" />
+      <workItem from="1560033374126" duration="870000" />
+      <workItem from="1560034411848" duration="587000" />
+      <workItem from="1560062162358" duration="27516000" />
+      <workItem from="1560096143829" duration="9273000" />
+      <workItem from="1560151651866" duration="31049000" />
+      <workItem from="1560189963971" duration="7661000" />
+      <workItem from="1560241702818" duration="11731000" />
+      <workItem from="1560273058945" duration="16569000" />
+      <workItem from="1560326225050" duration="13624000" />
+      <workItem from="1560360216778" duration="13053000" />
+      <workItem from="1560417340308" duration="14761000" />
+      <workItem from="1560434926507" duration="13072000" />
+      <workItem from="1560455255498" duration="1103000" />
+      <workItem from="1560456467861" duration="10029000" />
+      <workItem from="1560505280479" duration="5619000" />
+      <workItem from="1560512775411" duration="1975000" />
+      <workItem from="1560525231801" duration="156000" />
+      <workItem from="1560545912199" duration="12261000" />
+      <workItem from="1560625524882" duration="1408000" />
+      <workItem from="1560626971618" duration="497000" />
+      <workItem from="1560670711933" duration="655000" />
+      <workItem from="1560679469436" duration="6538000" />
+      <workItem from="1560686689458" duration="1266000" />
+      <workItem from="1560689778636" duration="2280000" />
+      <workItem from="1560852566631" duration="1153000" />
+      <workItem from="1561310752209" duration="7761000" />
+      <workItem from="1566736393612" duration="60000" />
+      <workItem from="1576157419487" duration="770000" />
+      <workItem from="1576161844055" duration="1797000" />
+      <workItem from="1576257791937" duration="223000" />
+      <workItem from="1576266813942" duration="9768000" />
+      <workItem from="1576344521063" duration="3965000" />
+      <workItem from="1576358049620" duration="3000" />
+      <workItem from="1588537439925" duration="4578000" />
+      <workItem from="1588702021517" duration="1197000" />
+      <workItem from="1589460463377" duration="11093000" />
+      <workItem from="1590606542648" duration="570000" />
+      <workItem from="1590622069875" duration="634000" />
+      <workItem from="1596400957909" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ATP2019Project/src/View/MazeDisplayer.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/View/MazeDisplayer.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../312199698_205520141_update1/out/artifacts/ATP2019___Project___PartB_jar2/ATP2019 - Project - PartB.jar!/IO/MyDecompressorInputStream.class</url>
+          <line>56</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../312199698_205520141_update1/out/artifacts/ATP2019___Project___PartB_jar2/ATP2019 - Project - PartB.jar!/IO/MyDecompressorInputStream.class</url>
+          <line>117</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/View/CharacterDisplayer.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,258 @@
+2019.06.25 11:08:58.206 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.25 11:08:58.206 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.25 11:08:58.215 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.25 11:08:58.215 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.25 11:08:58.216 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:08:58.216 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:08:58.217 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=56585,localport=5400]
+2019.06.25 11:08:58.220 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=56585,localport=5400]
+2019.06.25 11:08:58.245 INFO  Server.Server - Maze Information - number of rows: 50, number of columns: 50
+2019.06.25 11:08:58.263 INFO  Server.Server - Finished handle client: Socket[addr=/10.100.102.11,port=56585,localport=5400]
+2019.06.25 11:08:58.267 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=56586,localport=5401]
+2019.06.25 11:08:58.269 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=56586,localport=5401]
+2019.06.25 11:08:58.446 INFO  Server.Server - The solution was solved by the BestFirstSearch algorithm
+2019.06.25 11:08:58.446 INFO  Server.Server - Solution for Maze is: 
+2019.06.25 11:08:58.446 INFO  Server.Server - 1. {22,9}
+2019.06.25 11:08:58.447 INFO  Server.Server - 2. {22,10}
+2019.06.25 11:08:58.447 INFO  Server.Server - 3. {22,11}
+2019.06.25 11:08:58.447 INFO  Server.Server - 4. {22,12}
+2019.06.25 11:08:58.448 INFO  Server.Server - 5. {22,13}
+2019.06.25 11:08:58.449 INFO  Server.Server - 6. {22,14}
+2019.06.25 11:08:58.449 INFO  Server.Server - 7. {22,15}
+2019.06.25 11:08:58.449 INFO  Server.Server - 8. {22,16}
+2019.06.25 11:08:58.449 INFO  Server.Server - 9. {22,17}
+2019.06.25 11:08:58.449 INFO  Server.Server - 10. {22,18}
+2019.06.25 11:08:58.450 INFO  Server.Server - 11. {22,19}
+2019.06.25 11:08:58.450 INFO  Server.Server - 12. {22,20}
+2019.06.25 11:08:58.450 INFO  Server.Server - 13. {22,21}
+2019.06.25 11:08:58.450 INFO  Server.Server - 14. {22,22}
+2019.06.25 11:08:58.451 INFO  Server.Server - 15. {22,23}
+2019.06.25 11:08:58.451 INFO  Server.Server - 16. {23,23}
+2019.06.25 11:08:58.451 INFO  Server.Server - 17. {24,23}
+2019.06.25 11:08:58.452 INFO  Server.Server - 18. {24,24}
+2019.06.25 11:08:58.452 INFO  Server.Server - 19. {24,25}
+2019.06.25 11:08:58.452 INFO  Server.Server - 20. {25,25}
+2019.06.25 11:08:58.452 INFO  Server.Server - 21. {26,25}
+2019.06.25 11:08:58.452 INFO  Server.Server - 22. {26,26}
+2019.06.25 11:08:58.453 INFO  Server.Server - 23. {26,27}
+2019.06.25 11:08:58.453 INFO  Server.Server - 24. {27,27}
+2019.06.25 11:08:58.453 INFO  Server.Server - 25. {28,27}
+2019.06.25 11:08:58.453 INFO  Server.Server - 26. {28,28}
+2019.06.25 11:08:58.453 INFO  Server.Server - 27. {28,29}
+2019.06.25 11:08:58.454 INFO  Server.Server - 28. {28,30}
+2019.06.25 11:08:58.454 INFO  Server.Server - 29. {28,31}
+2019.06.25 11:08:58.454 INFO  Server.Server - 30. {29,31}
+2019.06.25 11:08:58.454 INFO  Server.Server - 31. {30,31}
+2019.06.25 11:08:58.454 INFO  Server.Server - 32. {31,31}
+2019.06.25 11:08:58.455 INFO  Server.Server - 33. {32,31}
+2019.06.25 11:08:58.455 INFO  Server.Server - 34. {33,31}
+2019.06.25 11:08:58.455 INFO  Server.Server - 35. {34,31}
+2019.06.25 11:08:58.456 INFO  Server.Server - 36. {34,32}
+2019.06.25 11:08:58.456 INFO  Server.Server - 37. {34,33}
+2019.06.25 11:08:58.457 INFO  Server.Server - 38. {34,34}
+2019.06.25 11:08:58.458 INFO  Server.Server - 39. {34,35}
+2019.06.25 11:08:58.459 INFO  Server.Server - 40. {35,35}
+2019.06.25 11:08:58.459 INFO  Server.Server - 41. {36,35}
+2019.06.25 11:08:58.459 INFO  Server.Server - 42. {36,36}
+2019.06.25 11:08:58.459 INFO  Server.Server - 43. {36,37}
+2019.06.25 11:08:58.460 INFO  Server.Server - 44. {37,37}
+2019.06.25 11:08:58.460 INFO  Server.Server - 45. {38,37}
+2019.06.25 11:08:58.460 INFO  Server.Server - 46. {39,37}
+2019.06.25 11:08:58.461 INFO  Server.Server - 47. {40,37}
+2019.06.25 11:08:58.461 INFO  Server.Server - 48. {41,37}
+2019.06.25 11:08:58.461 INFO  Server.Server - 49. {42,37}
+2019.06.25 11:08:58.461 INFO  Server.Server - 50. {42,36}
+2019.06.25 11:08:58.461 INFO  Server.Server - 51. {42,35}
+2019.06.25 11:08:58.462 INFO  Server.Server - 52. {43,35}
+2019.06.25 11:08:58.462 INFO  Server.Server - 53. {44,35}
+2019.06.25 11:08:58.463 INFO  Server.Server - 54. {44,36}
+2019.06.25 11:08:58.463 INFO  Server.Server - 55. {44,37}
+2019.06.25 11:08:58.470 INFO  Server.Server - Finished handle client: Socket[addr=/10.100.102.11,port=56586,localport=5401]
+2019.06.25 11:08:58.479 INFO  Server.Server - Stopping server..
+2019.06.25 11:08:58.480 INFO  Server.Server - Stopping server..
+2019.06.25 11:09:02.969 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.25 11:09:02.969 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.25 11:09:02.972 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.25 11:09:02.972 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.25 11:09:02.972 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:09:02.972 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:09:20.693 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.25 11:09:24.918 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.25 11:09:24.919 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=56594,localport=5400]
+2019.06.25 11:09:41.106 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.25 11:09:41.108 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=56594,localport=5400]
+2019.06.25 11:09:41.119 INFO  Server.Server - Maze Information - number of rows: 50, number of columns: 50
+2019.06.25 11:09:41.124 INFO  Server.Server - Finished handle client: Socket[addr=/10.100.102.11,port=56594,localport=5400]
+2019.06.25 11:09:41.127 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=56613,localport=5401]
+2019.06.25 11:09:41.128 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=56613,localport=5401]
+2019.06.25 11:09:41.195 INFO  Server.Server - The solution was solved by the BestFirstSearch algorithm
+2019.06.25 11:09:41.195 INFO  Server.Server - Solution for Maze is: 
+2019.06.25 11:09:41.196 INFO  Server.Server - 1. {22,33}
+2019.06.25 11:09:41.196 INFO  Server.Server - 2. {23,33}
+2019.06.25 11:09:41.197 INFO  Server.Server - 3. {24,33}
+2019.06.25 11:09:41.197 INFO  Server.Server - 4. {24,32}
+2019.06.25 11:09:41.198 INFO  Server.Server - 5. {24,31}
+2019.06.25 11:09:41.198 INFO  Server.Server - 6. {24,30}
+2019.06.25 11:09:41.198 INFO  Server.Server - 7. {24,29}
+2019.06.25 11:09:41.199 INFO  Server.Server - 8. {25,29}
+2019.06.25 11:09:41.199 INFO  Server.Server - 9. {26,29}
+2019.06.25 11:09:41.199 INFO  Server.Server - 10. {27,29}
+2019.06.25 11:09:41.200 INFO  Server.Server - 11. {28,29}
+2019.06.25 11:09:41.200 INFO  Server.Server - 12. {28,28}
+2019.06.25 11:09:41.200 INFO  Server.Server - 13. {28,27}
+2019.06.25 11:09:41.200 INFO  Server.Server - 14. {29,27}
+2019.06.25 11:09:41.201 INFO  Server.Server - 15. {30,27}
+2019.06.25 11:09:41.201 INFO  Server.Server - 16. {31,27}
+2019.06.25 11:09:41.202 INFO  Server.Server - 17. {32,27}
+2019.06.25 11:09:41.202 INFO  Server.Server - 18. {33,27}
+2019.06.25 11:09:41.203 INFO  Server.Server - 19. {34,27}
+2019.06.25 11:09:41.204 INFO  Server.Server - 20. {35,27}
+2019.06.25 11:09:41.208 INFO  Server.Server - 21. {36,27}
+2019.06.25 11:09:41.209 INFO  Server.Server - 22. {37,27}
+2019.06.25 11:09:41.210 INFO  Server.Server - 23. {38,27}
+2019.06.25 11:09:41.210 INFO  Server.Server - 24. {38,26}
+2019.06.25 11:09:41.210 INFO  Server.Server - 25. {38,25}
+2019.06.25 11:09:41.211 INFO  Server.Server - 26. {38,24}
+2019.06.25 11:09:41.211 INFO  Server.Server - 27. {38,23}
+2019.06.25 11:09:41.211 INFO  Server.Server - 28. {38,22}
+2019.06.25 11:09:41.212 INFO  Server.Server - 29. {38,21}
+2019.06.25 11:09:41.212 INFO  Server.Server - 30. {39,21}
+2019.06.25 11:09:41.212 INFO  Server.Server - 31. {40,21}
+2019.06.25 11:09:41.212 INFO  Server.Server - 32. {40,20}
+2019.06.25 11:09:41.213 INFO  Server.Server - 33. {40,19}
+2019.06.25 11:09:41.213 INFO  Server.Server - 34. {41,19}
+2019.06.25 11:09:41.213 INFO  Server.Server - 35. {42,19}
+2019.06.25 11:09:41.213 INFO  Server.Server - 36. {43,19}
+2019.06.25 11:09:41.214 INFO  Server.Server - 37. {44,19}
+2019.06.25 11:09:41.214 INFO  Server.Server - 38. {45,19}
+2019.06.25 11:09:41.214 INFO  Server.Server - 39. {46,19}
+2019.06.25 11:09:41.215 INFO  Server.Server - 40. {46,18}
+2019.06.25 11:09:41.215 INFO  Server.Server - 41. {46,17}
+2019.06.25 11:09:41.216 INFO  Server.Server - 42. {46,16}
+2019.06.25 11:09:41.216 INFO  Server.Server - 43. {46,15}
+2019.06.25 11:09:41.216 INFO  Server.Server - 44. {46,14}
+2019.06.25 11:09:41.217 INFO  Server.Server - 45. {46,13}
+2019.06.25 11:09:41.217 INFO  Server.Server - 46. {46,12}
+2019.06.25 11:09:41.218 INFO  Server.Server - 47. {46,11}
+2019.06.25 11:09:41.218 INFO  Server.Server - 48. {46,10}
+2019.06.25 11:09:41.219 INFO  Server.Server - 49. {46,9}
+2019.06.25 11:09:41.219 INFO  Server.Server - 50. {45,9}
+2019.06.25 11:09:41.220 INFO  Server.Server - 51. {44,9}
+2019.06.25 11:09:41.220 INFO  Server.Server - 52. {44,8}
+2019.06.25 11:09:41.221 INFO  Server.Server - 53. {44,7}
+2019.06.25 11:09:41.221 INFO  Server.Server - 54. {44,6}
+2019.06.25 11:09:41.228 INFO  Server.Server - 55. {44,5}
+2019.06.25 11:09:41.230 INFO  Server.Server - 56. {45,5}
+2019.06.25 11:09:41.231 INFO  Server.Server - 57. {46,5}
+2019.06.25 11:09:41.232 INFO  Server.Server - 58. {46,4}
+2019.06.25 11:09:41.232 INFO  Server.Server - 59. {46,3}
+2019.06.25 11:09:41.232 INFO  Server.Server - 60. {46,2}
+2019.06.25 11:09:41.232 INFO  Server.Server - 61. {46,1}
+2019.06.25 11:49:55.667 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.25 11:49:55.667 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.25 11:49:55.670 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.25 11:49:55.670 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.25 11:49:55.671 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:49:55.670 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:49:55.671 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=64350,localport=5400]
+2019.06.25 11:49:55.673 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=64350,localport=5400]
+2019.06.25 11:49:55.689 INFO  Server.Server - Maze Information - number of rows: 50, number of columns: 50
+2019.06.25 11:49:55.694 INFO  Server.Server - Finished handle client: Socket[addr=/10.100.102.11,port=64350,localport=5400]
+2019.06.25 11:49:55.696 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=64351,localport=5401]
+2019.06.25 11:49:55.696 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=64351,localport=5401]
+2019.06.25 11:49:55.759 INFO  Server.Server - The solution was solved by the BestFirstSearch algorithm
+2019.06.25 11:49:55.759 INFO  Server.Server - Solution for Maze is: 
+2019.06.25 11:49:55.759 INFO  Server.Server - 1. {22,6}
+2019.06.25 11:49:55.759 INFO  Server.Server - 2. {22,7}
+2019.06.25 11:49:55.760 INFO  Server.Server - 3. {22,8}
+2019.06.25 11:49:55.760 INFO  Server.Server - 4. {22,9}
+2019.06.25 11:49:55.760 INFO  Server.Server - 5. {22,10}
+2019.06.25 11:49:55.760 INFO  Server.Server - 6. {22,11}
+2019.06.25 11:49:55.761 INFO  Server.Server - 7. {22,12}
+2019.06.25 11:49:55.761 INFO  Server.Server - 8. {22,13}
+2019.06.25 11:49:55.761 INFO  Server.Server - 9. {22,14}
+2019.06.25 11:49:55.763 INFO  Server.Server - 10. {22,15}
+2019.06.25 11:49:55.763 INFO  Server.Server - 11. {22,16}
+2019.06.25 11:49:55.763 INFO  Server.Server - 12. {21,16}
+2019.06.25 11:49:55.763 INFO  Server.Server - 13. {20,16}
+2019.06.25 11:49:55.763 INFO  Server.Server - 14. {20,17}
+2019.06.25 11:49:55.763 INFO  Server.Server - 15. {20,18}
+2019.06.25 11:49:55.764 INFO  Server.Server - 16. {20,19}
+2019.06.25 11:49:55.766 INFO  Server.Server - 17. {20,20}
+2019.06.25 11:49:55.767 INFO  Server.Server - 18. {21,20}
+2019.06.25 11:49:55.767 INFO  Server.Server - 19. {22,20}
+2019.06.25 11:49:55.767 INFO  Server.Server - 20. {23,20}
+2019.06.25 11:49:55.767 INFO  Server.Server - 21. {24,20}
+2019.06.25 11:49:55.768 INFO  Server.Server - 22. {25,20}
+2019.06.25 11:49:55.768 INFO  Server.Server - 23. {26,20}
+2019.06.25 11:49:55.768 INFO  Server.Server - 24. {27,20}
+2019.06.25 11:49:55.768 INFO  Server.Server - 25. {28,20}
+2019.06.25 11:49:55.768 INFO  Server.Server - 26. {28,21}
+2019.06.25 11:49:55.769 INFO  Server.Server - 27. {28,22}
+2019.06.25 11:49:55.769 INFO  Server.Server - 28. {28,23}
+2019.06.25 11:49:55.769 INFO  Server.Server - 29. {28,24}
+2019.06.25 11:49:55.769 INFO  Server.Server - 30. {28,25}
+2019.06.25 11:49:55.769 INFO  Server.Server - 31. {28,26}
+2019.06.25 11:49:55.770 INFO  Server.Server - 32. {28,27}
+2019.06.25 11:49:55.770 INFO  Server.Server - 33. {28,28}
+2019.06.25 11:49:55.770 INFO  Server.Server - 34. {29,28}
+2019.06.25 11:49:55.770 INFO  Server.Server - 35. {30,28}
+2019.06.25 11:49:55.770 INFO  Server.Server - 36. {31,28}
+2019.06.25 11:49:55.771 INFO  Server.Server - 37. {32,28}
+2019.06.25 11:49:55.771 INFO  Server.Server - 38. {33,28}
+2019.06.25 11:49:55.771 INFO  Server.Server - 39. {34,28}
+2019.06.25 11:49:55.771 INFO  Server.Server - 40. {35,28}
+2019.06.25 11:49:55.771 INFO  Server.Server - 41. {36,28}
+2019.06.25 11:49:55.772 INFO  Server.Server - 42. {36,29}
+2019.06.25 11:49:55.772 INFO  Server.Server - 43. {36,30}
+2019.06.25 11:49:55.772 INFO  Server.Server - 44. {36,31}
+2019.06.25 11:49:55.772 INFO  Server.Server - 45. {36,32}
+2019.06.25 11:49:55.772 INFO  Server.Server - 46. {37,32}
+2019.06.25 11:49:55.772 INFO  Server.Server - 47. {38,32}
+2019.06.25 11:49:55.773 INFO  Server.Server - 48. {38,33}
+2019.06.25 11:49:55.773 INFO  Server.Server - 49. {38,34}
+2019.06.25 11:49:55.773 INFO  Server.Server - 50. {37,34}
+2019.06.25 11:49:55.773 INFO  Server.Server - 51. {36,34}
+2019.06.25 11:49:55.773 INFO  Server.Server - 52. {36,35}
+2019.06.25 11:49:55.774 INFO  Server.Server - 53. {36,36}
+2019.06.25 11:49:55.774 INFO  Server.Server - 54. {36,37}
+2019.06.25 11:49:55.774 INFO  Server.Server - 55. {36,38}
+2019.06.25 11:49:55.774 INFO  Server.Server - 56. {36,39}
+2019.06.25 11:49:55.774 INFO  Server.Server - 57. {36,40}
+2019.06.25 11:49:55.774 INFO  Server.Server - 58. {37,40}
+2019.06.25 11:49:55.775 INFO  Server.Server - 59. {38,40}
+2019.06.25 11:49:55.775 INFO  Server.Server - 60. {39,40}
+2019.06.25 11:49:55.775 INFO  Server.Server - 61. {40,40}
+2019.06.25 11:49:55.775 INFO  Server.Server - 62. {40,41}
+2019.06.25 11:49:55.775 INFO  Server.Server - 63. {40,42}
+2019.06.25 11:49:55.775 INFO  Server.Server - 64. {41,42}
+2019.06.25 11:49:55.776 INFO  Server.Server - 65. {42,42}
+2019.06.25 11:49:55.776 INFO  Server.Server - 66. {43,42}
+2019.06.25 11:49:55.776 INFO  Server.Server - 67. {44,42}
+2019.06.25 11:49:55.776 INFO  Server.Server - 68. {44,43}
+2019.06.25 11:49:55.776 INFO  Server.Server - 69. {44,44}
+2019.06.25 11:49:55.776 INFO  Server.Server - 70. {45,44}
+2019.06.25 11:49:55.777 INFO  Server.Server - 71. {46,44}
+2019.06.25 11:49:55.777 INFO  Server.Server - 72. {46,45}
+2019.06.25 11:49:55.777 INFO  Server.Server - 73. {46,46}
+2019.06.25 11:49:55.777 INFO  Server.Server - 74. {46,47}
+2019.06.25 11:49:55.778 INFO  Server.Server - 75. {46,48}
+2019.06.25 11:49:55.778 INFO  Server.Server - 76. {47,48}
+2019.06.25 11:49:55.778 INFO  Server.Server - 77. {48,48}
+2019.06.25 11:49:55.784 INFO  Server.Server - Finished handle client: Socket[addr=/10.100.102.11,port=64351,localport=5401]
+2019.06.25 11:49:55.791 INFO  Server.Server - Stopping server..
+2019.06.25 11:49:55.791 INFO  Server.Server - Stopping server..
+2019.06.25 11:49:56.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.25 11:49:56.697 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.25 11:50:38.887 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.25 11:50:38.887 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.25 11:50:38.892 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.25 11:50:38.892 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.25 11:50:38.892 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:50:38.892 INFO  Server.Server - Server is waiting for clients...
+2019.06.25 11:50:38.893 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=64378,localport=5400]
+2019.06.25 11:50:38.894 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=64378,localport=5400]
+2019.06.25 11:50:38.908 INFO  Server.Server - Maze Information - number of rows: 50, number of columns: 50
+2019.06.25 11:50:38.914 INFO  Server.Server - Finished handle client: Socket[addr=/10.100.102.11,port=64378,localport=5400]
+2019.06.25 11:50:38.916 INFO  Server.Server - Client excepted: Socket[addr=/10.100.102.11,port=64379,localport=5401]
+2019.06.25 11:50:38.917 INFO  Server.Server - Handling client with socket: Socket[addr=/10.100.102.11,port=64379,localport=5401]
